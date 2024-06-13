@@ -31,7 +31,9 @@ import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun OnBoardingScreen() {
+fun OnBoardingScreen(
+    event: (OnBoardingEvent) -> Unit
+) {
     Column(
         modifier = Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)
     ) {
@@ -85,7 +87,7 @@ fun OnBoardingScreen() {
                 NewsButton(text = buttonState.value[1]) {
                     scope.launch {
                         if (pagerState.currentPage == 2) {
-//                            event(OnBoardingEvent.saveAppEntryEvent)
+                            event(OnBoardingEvent.SaveAppEntry)
                         } else {
                             pagerState.animateScrollToPage(page = pagerState.currentPage + 1)
                         }
