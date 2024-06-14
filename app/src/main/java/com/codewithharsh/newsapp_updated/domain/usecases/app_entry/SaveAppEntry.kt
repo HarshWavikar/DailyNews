@@ -1,4 +1,4 @@
-package com.codewithharsh.newsapp_updated.domain.usecases
+package com.codewithharsh.newsapp_updated.domain.usecases.app_entry
 
 import com.codewithharsh.newsapp_updated.domain.manager.LocalUserManager
 

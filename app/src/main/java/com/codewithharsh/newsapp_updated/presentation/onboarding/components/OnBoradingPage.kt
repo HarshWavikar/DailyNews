@@ -21,7 +21,7 @@ import com.codewithharsh.newsapp_updated.presentation.Dimens.MediumPadding1
 import com.codewithharsh.newsapp_updated.presentation.Dimens.MediumPadding2
 import com.codewithharsh.newsapp_updated.presentation.onboarding.Page
 import com.codewithharsh.newsapp_updated.presentation.onboarding.pages
-import com.codewithharsh.newsapp_updated.ui.theme.NewsApp_UpdatedTheme
+import com.codewithharsh.newsapp_updated.presentation.ui.theme.NewsApp_UpdatedTheme
 @Composable
 fun OnBoradingPage(
     modifier: Modifier = Modifier,

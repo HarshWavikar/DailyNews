@@ -3,9 +3,9 @@ package com.codewithharsh.newsapp_updated.di
 import android.app.Application
 import com.codewithharsh.newsapp_updated.data.manager.LocalUserManagerImpl
 import com.codewithharsh.newsapp_updated.domain.manager.LocalUserManager
-import com.codewithharsh.newsapp_updated.domain.usecases.AppEntryUseCases
-import com.codewithharsh.newsapp_updated.domain.usecases.ReadAppEntry
-import com.codewithharsh.newsapp_updated.domain.usecases.SaveAppEntry
+import com.codewithharsh.newsapp_updated.domain.usecases.app_entry.AppEntryUseCases
+import com.codewithharsh.newsapp_updated.domain.usecases.app_entry.ReadAppEntry
+import com.codewithharsh.newsapp_updated.domain.usecases.app_entry.SaveAppEntry
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
